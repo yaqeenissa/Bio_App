@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:layout_marginEnd="4dp"
+        android:background="#C59797"
+        android:orientation="vertical"
+        android:visibility="visible">
+
+
+        <EditText
+            android:id="@+id/editTextTextPersonName"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:height="10dp"
+            android:ems="10"
+            android:fontFamily="sans-serif-medium"
+            android:gravity="center"
+            android:inputType="textPersonName"
+            android:text="My Bio "
+            android:textSize="20sp" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="20dp"
+            android:foreground="@drawable/me"
+            android:maxWidth="10dp"
+            android:maxHeight="7dp"
+            app:srcCompat="@drawable/me" />
+
+        <EditText
+            android:id="@+id/editTextTextPersonName2"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:ems="10"
+            android:fontFamily="sans-serif-light"
+            android:gravity="center"
+            android:inputType="textPersonName"
+            android:padding="16dp"
+            android:text="Yaqeen issa "
+            android:textSize="24sp" />
+
+        <EditText
+            android:id="@+id/textHobbies"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:height="300dp"
+            android:hint="Write Your hobbies "
+            android:inputType="textPersonName"
+            android:padding="15dp"
+            android:textSize="20sp"/>
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:backgroundTint="#CCCAB9"
+            android:text="Add" />
+
+        <EditText
+            android:id="@+id/res"
+            android:layout_width="66dp"
+            android:layout_height="63dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:isScrollContainer="false"
+            android:padding="20dp"
+            android:scrollbars="horizontal"
+            android:scrollHorizontally="true"
+            android:textSize="20dp"
+            android:verticalScrollbarPosition="defaultPosition"
+            android:visibility="gone" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:fillViewport="true">
+
+            <EditText
+                android:id="@+id/About_Me"
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                android:width="70dp"
+                android:height="100dp"
+                android:backgroundTint="#EDE9E9"
+                android:ems="10"
+                android:gravity="center|center_vertical"
+                android:inputType="textMultiLine"
+                android:scrollbars="vertical"
+                android:text="@string/AboutMe" />
+
+        </ScrollView>
+
+
+    </LinearLayout>
+
+</android.support.v7.widget.LinearLayoutCompat>
